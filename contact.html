@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,50 +9,59 @@
     <link rel="stylesheet" type="text/css" href="./assets/reset.css">
     <link rel="stylesheet" type="text/css" href="./assets/style.css">
 </head>
+
 <body>
 
     <nav>
-            <div class="header">
-                <h1 class="name">Breanna Nelson</h1>
-                <p class="navlinks">
-                        <a href="index.html" class="nav-link">About</a> |
-                        <a href="portfolio.html" class="nav-link">Portfolio</a> |
-                        <a href="contact.html" class="nav-link">Contact</a> 
-                </p>
+        <div class="header">
+            <h1 class="name">Breanna Nelson</h1>
+            <p class="navlinks">
+                <a href="index.html" class="nav-link">About</a> |
+                <a href="portfolio.html" class="nav-link">Portfolio</a> |
+                <a href="contact.html" class="nav-link">Contact</a>
+            </p>
+        </div>
+    </nav>
+    <div class="clearfixContact">
+        <div class="entireContent">
+            <div class="mainSectionContent">
+                <h1 class="contact">Contact</h1>
+                <hr>
+                <form>
+                    Name
+                    <br>
+                    <input type="text" name="fullname" placeholder="John Smith">
+                    <br> Email
+                    <br>
+                    <input type="text" name="email" placeholder="example@gmail.com">
+                    <br> Message
+                    <br>
+                    <textarea name="textbox" id="message"></textarea>
+                    <button type="button">Submit</button>
+                </form>
+
             </div>
-        </nav>
-        <div class="clearfixContact">
-            <div class="entireContent">
-                <div class="mainSectionContent">
-                        <h1 class="contact">Contact</h1>
-                        <hr>
-                        <form>
-                                Name<br>
-                                <input type="text" name="fullname" placeholder="John Smith">
-                                <br>
-                                Email<br>
-                                <input type="text" name="email" placeholder="example@gmail.com">
-                                <br>
-                                Message<br>
-                                <textarea name="textbox" id="message"></textarea>
-                                <button type="button">Submit</button>
-                        </form>
 
-                </div>
-
-                <div class="sidebarContent">
-                    <h2 class="connect">Connect with Me</h2>
-                    <hr>
-                    <div class="links">
-                        <a href="https://github.com/breannanelson" target="_blank"><img class="linkPhoto" src="./assets/images/gitHub.png" alt="GitHub"></a>
-                        <a href="https://www.linkedin.com/in/breanna-nelson-222860124/" target="_blank"><img class="linkPhoto" src="./assets/images/linkedIn.png" alt="LinkedIn"></a>
-                        <a href="https://stackoverflow.com/users/9165072/breanna-nelson?tab=profile" target="_blank"><img class="linkPhoto" src="./assets/images/stackOverflow.png" alt="StackOverflow" id="stackLink"></a>
-                    </div>
+            <div class="sidebarContent">
+                <h2 class="connect">Connect with Me</h2>
+                <hr>
+                <div class="links">
+                    <a href="https://github.com/breannanelson" target="_blank">
+                        <img class="linkPhoto" src="./assets/images/gitHub.png" alt="GitHub">
+                    </a>
+                    <a href="https://www.linkedin.com/in/breanna-nelson-222860124/" target="_blank">
+                        <img class="linkPhoto" src="./assets/images/linkedIn.png" alt="LinkedIn">
+                    </a>
+                    <a href="https://stackoverflow.com/users/9165072/breanna-nelson?tab=profile" target="_blank">
+                        <img class="linkPhoto" src="./assets/images/stackOverflow.png" alt="StackOverflow" id="stackLink">
+                    </a>
                 </div>
             </div>
         </div>
+    </div>
 
 
     <footer class="footer">© Copyright 2018 Breanna Nelson</footer>
 </body>
+
 </html>
